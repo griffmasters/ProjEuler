@@ -1,9 +1,9 @@
 ProjEuler
 =========
 
-solutions to project Euler problems
+recording solutions to project Euler problems on the go, using only in-browser tools
 
-from:
+puzzles from:
 https://projecteuler.net
 
 most code made in:
