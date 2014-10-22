@@ -1,3 +1,5 @@
+#include "iostream"
+
 using namespace std;
 /*
 problem 2:
@@ -11,11 +13,18 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 int main()
 {
-    
-    int sum1 = 1;
-    int sum2 = 2;
-    while (sum2 = 4000000)
+    int sum = 0;
+    int fibLesser = 1;
+    int fibGreater = 2;
+    int tempSwap;
+    while (fibGreater < 4000000)
     {
+        if(fibGreater%2==0)
+            sum += fibGreater;
+            
+        tempSwap = fibGreater;
+        fibGreater = fibLesser + fibGreater;
+        fibLesser = tempSwap;
         
     }
    cout << sum << endl; 
