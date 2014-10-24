@@ -22,7 +22,8 @@ int main()
             multiple % 13 != 0 ||
             multiple % 12 != 0 ||
             multiple % 11 != 0)
-        ++multiple;
+            
+        multiple = multiple + 20;
     
    cout << multiple << endl; 
    
