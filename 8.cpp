@@ -33,7 +33,9 @@ for(int i = 0; i<988; ++i) //1000-12
         {
         product = product * buffer[k];
         }
-cout<<product<<endl;
+//cout<<product<<endl;
+
+
 //check product and save if larger than largestProduct
     if(product > largestProduct)
         {
